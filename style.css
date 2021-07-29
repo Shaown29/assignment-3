@@ -16,3 +16,21 @@
 .h1-new-font{
     font-family: 'Poppins', sans-serif;
 }
+.main-p-text{
+    color:#E76F51;
+    font-size: 14px;
+}
+.gray-img{
+    filter: grayscale(100%);
+}
+span{
+    color:#E76F51;
+}
+.happy-client-img{
+    height: 149px;
+    width: 149px;   
+}
+.i-new-color{
+    color:#E76F51;
+}
+
