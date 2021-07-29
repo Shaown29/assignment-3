@@ -1,0 +1,18 @@
+.bg-color-header-part{
+    background-color: #264653;;
+
+}
+.button-new-class{
+    background: #E76F51;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+    width: 140px;
+    height: 44px;
+}
+.text-font-new{
+    font-family: 'Poppins', sans-serif;
+}
+.h1-new-font{
+    font-family: 'Poppins', sans-serif;
+}

@@ -7,19 +7,49 @@
     <title>assignment-3</title>
     <!-- CSS only -->
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
 </head>
 <body>
     <!--header part-->
     <header>
-        <section class="container">
-           <div class="d-flex">
-            <div>
-                <p>Computer-controlled digital transistorized with electronic advancce</p>
-                <h1>Honda CBR 300R</h1>
-                <p>This is one of the super bike that people dream about.It's not that expensive that it looks outside.It is for super cool people who likes it.</p>
+        <section class="container-fluid bg-color-header-part d-flex align-items-center justify-content-center">
+           <div class="row">
+            <div class="col-lg-6 col-12 p-5">
+                <p class="text-white text-font-new">Computer-controlled digital transistorized with electronic advancce</p>
+                <h1 class="text-white h1-new-font">Honda CBR 300R</h1>
+                <p class="text-white text-font-new">This is one of the super bike that people dream about.It's not that expensive that it looks outside.It is for super cool people who likes it.</p>
+                
+                <button type="button" class="button-new-class" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                Purchase
+                </button>
+  
+                
+                 <div  class="modal fade p-3" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                 <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Purchasing</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+            <p>Purchasing this bike will help you to ride along with your dream bike.You can give 12 months EMI with 0%</p>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Understood</button>
+            </div>
+        </div>
+        </div>
+    </div>
              </div>
-             <div>
-                 <img src="images/header-bike.png">
+             <div class="col-12 col-lg-6 ">
+                 <img  width="360px" height="250px" src="images/header-bike.png">
              </div>
            </div>
 
